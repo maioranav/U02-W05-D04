@@ -10,11 +10,19 @@
 
 body {
   color: #666666;
-  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 30px;
   font-family: "Bree Serif";
   font-weight: 600;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 #testoAlternato {
   border: 2px solid #666666;
